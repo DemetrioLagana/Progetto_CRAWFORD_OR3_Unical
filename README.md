@@ -39,7 +39,7 @@ Each city folder contains:
 - A **node file** (e.g., `roma5.csv`) with columns `id, name, lat, lon, type` where type is `hospital`, `facility`, or `hub`.
 - **Commodity files** (e.g., `ROMA-10-1-c.csv`) with columns `commodity_id, origin, destination, ready_time, due_time, drone_req, penalty, supply_type, quantity, origin_drones`. File names encode `CITY-K-seed-scenario` where `K` is the number of commodities and scenario is `c` (critical) or `nc` (non-critical).
  
-A `population_density.csv` file with columns `lat, lon, density` is also needed by the instance generator to enforce no-fly zones over densely populated areas.
+A `population_density.csv` file with columns `lat, lon, density` is also needed by the instance generator to enforce no-fly zones over densely populated areas. This file must be unzipped into the data folder from the population_density.csv.zip file.
 
 ## Requirements
  
